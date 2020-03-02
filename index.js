@@ -45,6 +45,7 @@ app.get('/carowners', (req,res,)=>{
   res.json(carOwners);
 });
 
+//redo to filter
 app.get('/carowners/fname=:first_name',(req,res)=>{
   const nameParam = req.params.first_name;
   let ownersFilteredArray = [];//array to push the matching objects to user's value
@@ -54,9 +55,6 @@ app.get('/carowners/fname=:first_name',(req,res)=>{
       }
     }
     res.send(ownersFilteredArray);
-    {
-      res.send('Invalid parameter');
-    }
 });
 
 app.get('/carowners/fname=:first_name/carname=:owns_car',(req,res)=>{
@@ -70,9 +68,6 @@ app.get('/carowners/fname=:first_name/carname=:owns_car',(req,res)=>{
       }
     }
     res.send(ownersFilteredArray);
-    {
-      res.send('Invalid parameter');
-    }
 });
 
 app.get('/cars/make=:make&model=:model',(req,res)=>{
@@ -86,9 +81,6 @@ app.get('/cars/make=:make&model=:model',(req,res)=>{
       }
     }
     res.send(filteredArray);
-    {
-      // res.send('Invalid parameter');
-    }
 });
 
 
