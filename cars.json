@@ -1,0 +1,10 @@
+[{"id":1,"model":"Tiburon","make":"Hyundai","year":2006,"gender":"Male"},
+{"id":2,"model":"Safari","make":"GMC","year":2002,"gender":"Male"},
+{"id":3,"model":"IS-F","make":"Lexus","year":2012,"gender":"Male"},
+{"id":4,"model":"Jetta","make":"Volkswagen","year":1987,"gender":"Female"},
+{"id":5,"model":"Spirit","make":"Dodge","year":1994,"gender":"Female"},
+{"id":6,"model":"Eclipse","make":"Mitsubishi","year":2010,"gender":"Female"},
+{"id":7,"model":"Crown Victoria","make":"Ford","year":1996,"gender":"Male"},
+{"id":8,"model":"B-Series Plus","make":"Mazda","year":2003,"gender":"Female"},
+{"id":9,"model":"Sierra","make":"GMC","year":2012,"gender":"Female"},
+{"id":10,"model":"F350","make":"Ford","year":2000,"gender":"Male"}]
